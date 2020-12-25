@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background:url(../images/Login.jpg) ;
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;       
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+::-webkit-calendar-picker-indicator{
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.Release-train{
+    width: 900px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    overflow: auto;
+}
+.Release-train a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.Release-train a:hover{
+  color: #ffc107;
+}
+
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    height: 30px;
+}
+
+/*.alignRight{
+    margin: 0;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.alignLeft{
+    margin: 0;
+    display: flex;
+    padding: 3px;
+    justify-content:space-between;
+}.*/
+
+.alignCenter{
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 3px;
+}
+
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  .User{
+    width: 15%;
+    height: 15%;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 85%;
+    margin-bottom: auto;
+}
+
+.User a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.User a:hover{
+    color: #ffc107;
+}

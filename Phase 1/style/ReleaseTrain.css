@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background:url(../images/Login.jpg) ;
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;       
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+::-webkit-calendar-picker-indicator{
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+input[type="number"]::placeholder {
+
+    /* Firefox, Chrome, Opera */ 
+    text-align: center; 
+}
+.Release-train{
+    width: 500px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    overflow: auto;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Release-train input{
+    margin-bottom: 20px ;
+}
+
+.Release-train input[type="text"],input[list="createdTrain"],input[list="releasedTrain"],input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+    width: 40%;
+    display: inline;
+    margin-left: 50px;
+}
+
+.Release-train input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+    width: 40%;
+    display: inline;
+    margin-left: 45px;
+}
+
+.Release-train input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.Release-train input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.Release-train input[type="text"],input[list="createdTrain"],input[type="date"],input[list="releasedTrain"]::placeholder{
+    text-align: center;
+}
+
+.Release-train a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.Release-train a:hover{
+    color: #ffc107;
+}
+.User{
+    width: 15%;
+    height: 15%;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 85%;
+    margin-bottom: auto;
+}
+
+.User a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.User a:hover{
+    color: #ffc107;
+}

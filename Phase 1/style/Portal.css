@@ -1,0 +1,184 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+body{
+    margin: 0px;
+    padding: 0;
+    background:url(../images/Login.jpg) ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.initialForm{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.initialForm p{
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.initialForm input{
+    margin-bottom: 20px ;
+}
+
+.initialForm input[type="text"], input[type="password"], input[type="number"]{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+/*.initialForm input[type="radio"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+    display: inline-block;
+}*/
+
+.initialForm input[type="submit"]{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.initialForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.initialForm label{
+    display: block;
+}
+
+
+.nameForm{
+    width: 500px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    overflow: auto;
+}
+
+.nameForm input{
+    margin-bottom: 20px ;
+}
+
+.nameForm input[type="text"], input[type="password"], input[type="number"]{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.nameForm input[type="submit"]{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.nameForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.nameForm input[list="gender"]{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.nameForm a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.nameForm a:hover{
+    color: #ffc107;
+}
+
+.User{
+    width: 15%;
+    height: 15%;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 85%;
+    margin-bottom: auto;
+}
+
+.User a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.User a:hover{
+    color: #ffc107;
+}
